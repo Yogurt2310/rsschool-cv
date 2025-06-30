@@ -51,5 +51,5 @@ for(let j = 0; j < zooData.length; j++) {
 
 ## English
 ___B2 (Begin)___  
-I was learning and practising English for most of my life. I was a student in 2 belarusian english schools: __Sreamline__ and __Aspect__
+I was learning and practising English for about 7 years. I was a student in 2 belarusian english schools: __Sreamline__ and __Aspect__
 
