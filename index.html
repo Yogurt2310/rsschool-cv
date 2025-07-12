@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="img">
+      <img src="./images/image.jpg" alt="developer">
+    </div>
+    <div class="header-content">
+      <div class="developer-name">
+        <h1>Egor Verenich</h1>
+        <div class="developer-job">
+          <h2 class="front-end-developer">Front-end developer</h2>
+        </div>
+      </div>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-menu-item"><a class="header-a" href="#about">about</a></li>
+          <li class="header-menu-item"><a class="header-a" href="#code">code</a></li>
+          <li class="header-menu-item"><a class="header-a" href="#projects">projects</a></li>
+          <li class="header-menu-item"><a class="header-a" href="#skills">skills</a></li>
+          <li class="header-menu-item"><a class="header-a" href="#contacts">contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <div class="main-part">
+    <div class="main-container">
+      <aside>
+        <div class="education">
+          <div class="h2-edu">
+            <h2 class="edu"><u>Education</u></h2>
+          </div>
+          <div class="edu-text">
+            Secondary School №18, Mogilev
+          </div>
+          <div class="h2-edu">
+            <h2 class="edu"><u>RS School</u></h2>
+          </div>
+          <div class="edu-rs-text">
+            JS/FE Pre-School
+          </div>
+          <div class="edu-smaller-text">
+            in process...
+          </div>
+        </div>
+        <div class="skills-container" id="skills">
+          <div class="h2-skills">
+            <h2 class="skills"><u>Skills</u></h2>
+          </div>
+          <div class="skill-list">
+            <ul class="skill-ul">
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>Git</li>
+              <li>React</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <main>
+        <section class="about-section" id="about">
+          <h2 class="h2-about-me"><u>About me:</u></h2>
+          <p class="about-p">
+            I am 16 years old and I am trying to really get into IT development. I have already tried to work in several different spheres. I am interested in all opportunities and projects that can help me to achieve my aim (to become professional developer).
+            I had experience working with different frameworks: React, Electron, TailwindCSS, SCSS.
+            Besides those frameworks, I also had an experiencre working in game and mobile development (Unity and Android Studio).
+          </p>
+        </section>
+        <section class="language-section">
+          <h3 class="h3-language"><i>Languages:</i></h3>
+          <ul class="language-list">
+            <li>Russian - native speaker</li>
+            <li>Belarusian - native speaker</li>
+            <li>English - B2(begin)</li>
+          </ul>
+        </section>
+        <section class="code-section" id="code">
+          <h2 class="h2-code"><u>Code example:</u></h2>
+          <div class="code-container">
+            <pre class="pre-code">
+              <code class="code">
+                <i>
+                  <span><i class="red">for</i> (<i class="red">let</i> j <i class="blue">= 0</i>; j <i class="blue"><</i> zooData.<i class="blue">length</i>; j<i class="blue">++</i>){</span> 
+                  <span>  <i class="red">if</i>(zooData[j].<i class="blue">id ==</i> historyData[i].<i class="blue">requestid</i>) {      </span>
+                  <span>    requestType <i class="blue">= "Animals"</i>;</span>
+                  <span>    <i class="red">break</i>;</span>
+                  <span>  }</span>
+                  <span>}</span>
+                </i>
+              </code>
+            </pre>
+          </div>
+        </section>
+        <section class="projects-section" id="projects">
+          <h2 class="h2-projects"><u>Projects:</u></h2>
+          <p class="projects-p">
+            <b>Unfortunately, there are no any projects <i><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">yet</a></i> =(</b>
+          </p>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div class="contacts" id="contacts">
+        <h2 class="h2-contacts"><u>Contacts:</u></h2>
+        <ul class="ul-contacts">
+          <li class="li-contacts"><b>Phone</b></li>
+          <li class="li-contacts"><b>Telegram</b></li>
+          <li class="li-contacts"><b>Instagram</b></li>
+          <li class="li-contacts"><b>Email</b></li>
+        </ul>
+      </div>
+      <div class="git-logo">
+        <a href="https://github.com/Yogurt2310">
+          <img class="git-img" src="./icons/Octicons-mark-github.svg" alt="github logo">
+        </a>
+      </div>
+      <div class="rss-logo">
+        <a href="https://rs.school/courses/javascript-ru">
+          <img class="rss-img" src="./icons/rs-school-logo.svg" alt="RS School logo">
+        </a>
+      </div>
+      <div class="creation-year">
+        <b>Created in 2025</b>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
